@@ -63,7 +63,7 @@ void fordelay(int j)
 void comptjdid()
 {
     FILE *txt;
-    txt = fopen("record", "a+");
+    txt = fopen("record.txt", "a+");
     system("cls");
     printf("\t\t\t\t\******Add account******");
     printf("\n\n\n donner votre nom:");
@@ -405,7 +405,7 @@ void menu(void)
     system("color 3");
     printf("\n\n\t\t\t               E-Bank");
     printf("\n\n\n\t\t\t\xB2\xB2\xB2\xB2\xB2\xB2\xB2 BIENVENU \xB2\xB2\xB2\xB2\xB2\xB2\xB2");
-    printf("\n\n\t\t[1] Creer un nouveau compte\n\t\t[2] Mise à jour des informations dun compte existant.\n\t\t[3] Transactions\n\t\t[4] Afficher les details d un compte existant\n\t\t[5]Supprimer un compte existant\n\t\t[6] Afficher la liste des clients\n\t\t[7] Exit\n\n\n\t\t Enter your choice:");
+    printf("\n\n\t\t[1] Creer un nouveau compte\n\t\t[2] Mise Ã  jour des informations dun compte existant.\n\t\t[3] Transactions\n\t\t[4] Afficher les details d un compte existant\n\t\t[5]Supprimer un compte existant\n\t\t[6] Afficher la liste des clients\n\t\t[7] Exit\n\n\n\t\t Enter your choice:");
     scanf("%d",&choice);
 
     system("cls");
